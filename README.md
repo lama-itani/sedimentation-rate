@@ -1,9 +1,9 @@
 # Predicting sedimentation rate using ML  
 ML project for RFP EDF aiming to calculate sedimentation rate.
 
-```markdown
+```
 ## Project structure
-```text
+```
 project-root/
 ├── data/
 │   ├── raw/
