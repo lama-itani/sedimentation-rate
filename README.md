@@ -3,8 +3,7 @@ ML project for RFP EDF aiming to calculate sedimentation rate.
 
 ```markdown
 ## Project structure
-```
-project-root/
+```project-root/
 ├── data/
 │   ├── raw/
 │   ├── interim/
