@@ -4,12 +4,12 @@ ML project for RFP EDF aiming to calculate sedimentation rate.
 ```markdown
 project-root/
 ├── data/
-│   ├── raw/
-│   ├── interim/
+│   ├── raw/ # contains raw .csv file
+│   ├── interim/ # contains .csv with no duplicates and NaNs replaced by mean value
 │   └── processed/
 ├── notebooks/
 ├── src/
-│   ├── data/
+│   ├── data_utils.py # data loading & cleaning
 │   ├── models/
 │   └── utils/
 ├── tests/
