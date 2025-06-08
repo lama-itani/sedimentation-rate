@@ -8,6 +8,8 @@ project-root/
 │   ├── interim/ # contains .csv with no duplicates and NaNs replaced by mean value
 │   └── processed/
 ├── notebooks/
+│   ├── EDA_ml_sediment.ipynb     # exploratory data analysis with visuals
+│   ├── modular_ml_sediment.ipynb # modular code
 ├── src/
 │   ├── data_utils.py     # data loading & cleaning
 │   ├── preprocessing.py  # preproc pipelines
