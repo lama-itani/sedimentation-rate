@@ -30,5 +30,5 @@ def split_features_target(df, target_col="TARGET", test_size=0.2, random_state=4
         X, y, test_size=test_size, random_state=random_state
     )
     
-    print(f"Train: {X_train.shape}, Test: {X_test.shape}")
+    print(f"Train shape: {X_train.shape}, Test shape: {X_test.shape}")
     return X_train, X_test, y_train, y_test
