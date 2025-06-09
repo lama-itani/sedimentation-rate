@@ -18,7 +18,6 @@ def load_and_clean_data(file_path, separator=";"):
     
     print(f"Raw data loaded shape: {df.shape}")
     print(f"Cleaned data shape (duplicates dropped/NaNs replaced with mean): {df_silver.shape}")
-    df_silver.to_csv("/Users/litani/Documents/myCode/sedimentation-rate/data/interim/df_silver.csv", index=False)
     return df_silver
 
 def split_features_target(df, target_col="TARGET", test_size=0.2, random_state=42):
