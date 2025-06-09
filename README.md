@@ -1,8 +1,9 @@
 # Predicting sedimentation velocity using ML  
-ML project for RFP EDF aiming to calculate sedimentation rate.
+ML project to predict sedimentation velocity. Contains some MLOps best practices.
 ## Project structure
 ```markdown
 project-root/
+├── train_job.py    # job script checks for new data, retrains and deploys based on criterion
 ├── data/
 │   ├── raw/        # contains raw .csv file
 │   ├── interim/    # contains .csv with no duplicates and NaNs replaced by mean value
