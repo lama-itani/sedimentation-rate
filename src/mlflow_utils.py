@@ -7,11 +7,9 @@ import mlflow
 import mlflow.sklearn
 from mlflow.models.signature import infer_signature
 from sklearn.metrics import r2_score
-import hashlib
 import platform
 import pandas as pd
 import sklearn
-import os
 from pathlib import Path
 
 def setup_mlflow_tracking():
@@ -125,7 +123,7 @@ def create_comprehensive_metrics(pipeline, X_train, y_train, y_test, y_test_pred
     # Get train predictions (model already trained)
     y_train_pred = pipeline.predict(X_train)
     
-    # Comprehensive metrics using existing predictions
+    # shensive metrics using existing predictions
     metrics = {
         'train_r2': r2_score(y_train, y_train_pred),
         'test_r2': r2_score(y_test, y_test_pred),  # Use existing predictions
