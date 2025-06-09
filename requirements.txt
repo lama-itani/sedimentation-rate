@@ -6,6 +6,6 @@ mlflow
 statsmodels
 pandas 
 numpy
-hashlib
-platform
+#hashlib
+#platform
 python-dotenv
