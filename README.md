@@ -15,5 +15,6 @@ project-root/
 │   ├── data_utils.py     # data loading & cleaning
 │   ├── preprocessing.py  # preproc pipelines
 │   └── models.py         # create and train models
+│   └── mlflow_utils.py   # mlflow utilities w/ some MLOps best practices
 ```
 ## Next
