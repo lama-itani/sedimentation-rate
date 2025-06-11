@@ -1,6 +1,6 @@
 """
-Data validation and freshness checking job.
-Handles data quality checks, schema validation, and freshness verification.
+This job does some basic data validation and freshness checking.
+Also handles data quality checks, schema validation, and freshness verification.
 """
 import os
 import logging
